@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto+Mono:ital,wght@1,700&family=Sofia+Sans:ital,wght@0,700;1,600&display=swap');
+
+    
+
+
+body{
+    background-color:#3B4C9C;
+}
+
+#titulo-principal { 
+    text-align: center;
+    color:#f1f0ed;
+    font-family:'Bakbak One';
+    font-size: 50px;
+    
+}
+
+h1{ 
+    text-align: center;
+    color:#e9b61d;
+    font-family:'Bakbak One';
+    font-size: 40px;
+}
+
+h2{ 
+    color:#473809;
+    font-family:'Bakbak One';
+    font-size: 20px;
+    text-align: center;
+}
+
+
+a{
+    
+    font-family:'Bakbak One';
+    font-weight: bold;
+    text-decoration:none;
+    color:#9C802C;
+}
+
+a:visited{
+    color:#f6f8f6;
+
+
+}
+a:hover{
+       background-color:#b99119;
+
+}
+
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+.destaque{
+    background-color:#b99119;
+}

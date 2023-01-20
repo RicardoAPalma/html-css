@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex012</title>
+</head>
+<style>
+body {background-color: brown}
+</style>
+
+<body>
+
+<h1>Videos com HMTL5</h1>
+<h2>Inserindo vídeos hospedados localmente</h2>
+<p><pre>Este vídeo está hospedado no meu próprio servidor:</pre></p>
+<br>
+
+<video width="720" height="1280" poster="imagens/thumbnail.png" controls >
+    <source src="media/video1.m4v.m4v" type="video/m4v"> 
+    <source src="media/video1.mp4" type="video/mp4">   
+    <source src="media/video1.webmov.webm" type="video/webm">
+    <source src="media/video1.ogv" type="video/ogg">
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+
+<!--‣ width vai indicar a largura que o vídeo vai ter na tela. Nesse exemplo, 600px. 
+‣ poster configura uma imagem que vai aparecer como uma capa, enquanto o 
+visitante não aperta o play para reproduzir o vídeo 
+‣ controls vai configurar se os controles do vídeo vão aparecer na parte inferior da 
+mídia. Por padrão, os controles não aparecerão, mas basta colocar a palavra 
+controls na tag <video>. 
+‣ autoplay diz para o navegador se o vídeo vai começar a tocar automaticamente, 
+assim que a página for carregada. -->
+
+
+<!--Os formatos suportados são MPEG, WEBM e OGG, mas os 
+dois primeiros são os que possuem maior compatibilidade
+com os navegadores atualmente. -->
+</video>
+
+<h1>Hospedagem web</h1>
+
+<p><pre>Video aleatorio do youtube:</pre></p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8MEbqnZY05o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
+<br>
+
+
+<p><pre>Video aleatorio do vimeo:</pre></p>
+
+<iframe src="https://player.vimeo.com/video/786310495?h=ecd1af0c84&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>

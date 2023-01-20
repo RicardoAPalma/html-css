@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex010</title>
+    <style>
+        body {
+            background-color: rgba(14, 95, 109, 0.644);
+        }
+    </style>
+</head>
+<body>
+
+
+<h1><center><pre>Ligações em toda parte</pre></center></h1>
+
+
+<h2>Usando links externos</h2>
+<p>Você pode acessar o meu canal da<a href="https://www.twitch.tv/alemaofps1"> twitch</a>.</p>
+
+<p><h2>Cria um link externo, que ao clicar não fecha o site de primeiro acesso.</h2></p>
+<p>Você pode acessar o meu <a href="https://www.youtube.com/channel/UCUtY8KnTME2UxGEXoSy-Ehg" target="_blank" rel="external">canal no youtube</a>.</p> 
+
+<h2>Usando links internos</h2>
+<p>Está é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p> 
+<!-- Antes de criar um link interno é obrigatório ter outras páginas.-->
+<!-- A página 002 deve estar na mesma pasta do index.-->
+<!-- Visualmente o comando "rel next" não apresenta nada, seria mais uma iformação interna para o google, avisando pra ele que ao clicar no link levara para a proxima página! -->
+
+<p>Você também pode acessar nossa <a href="noticias/pag003.html" rel="next" target="_self" >página de notícias</a>.</p>
+<!--O comando "_self" no target indica que está sendo encaminhado para própria página-->
+<h1>Links para download</h1>
+<ul>
+    <li><a href="Livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf" >Baixar o livro em PDF</a></li>
+    <li><a href="Livro/meulivro.zip" download="meulivro.zip" type="application/zip" >Livro compactado em ZIP</a></li>
+</ul>
+
+
+</body>
+</html>

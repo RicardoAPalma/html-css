@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'fonte-usada';
+    src: url(fontes/idroid.otf);
+}
+
+body { 
+    background-color:  antiquewhite;
+    display: block;
+
+}
+
+h1#tituloprincipal {
+    text-align: center;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+section.banner-do-site {
+    background-color:rgb(31, 109, 31);
+    margin: -8px -8px 0px -8px;
+    padding: 16px 3px 25px 5px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    
+}
+
+nav {
+    background-color:rgb(31, 109, 31) ; 
+    margin:0px -8px 0px -8px;
+
+}
+
+nav > a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:justify;
+    margin:22px 21px 21px 15px;
+    padding: 0px 0px 0px 0px;
+}
+
+nav > a:hover {
+    text-decoration: solid;
+    background-color:gray;
+}
+
+main > h1 {
+    text-align: center;
+    background-color:white;
+    font-family:'fonte-usada';
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top:50px;   
+    color:rgb(17, 94, 2);
+}
+
+main > p {
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top:50px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    background-color:white;
+    font-family:'fonte-usada';
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top:50px;
+    
+    color:rgb(17, 94, 2);
+    background-color: rgba(2, 155, 2, 0.349);
+
+}
+
+
+
+span {
+    
+    background-color: rgba(0, 128, 0, 0.336);
+}
+
+span > a {
+    text-decoration:none;
+    color:rgb(1, 36, 1);
+}
+
+span > a:hover {
+        text-decoration:solid;
+        background-color:grey;
+}

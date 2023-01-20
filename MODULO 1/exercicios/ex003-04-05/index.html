@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <link rel="shortcut icon" href="naruto.png5" type="naruto.png">
+</head>
+<link rel="shortcut icon" href="naruto.png" type="image/x-icon">
+<body>
+
+
+    <h1>Testando carga de Imagem</h1><br><br>
+    <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p><br>
+    <img src="asdf-menor.jpg" alt="yAN">     <!-- Na linha 14, adicionamos a tag <img>, responsável por carregar imagens que estão na pasta do projeto atual ou em links externos.  --> 
+        <!-- Essa tag tem como parâmetros básicos o src (que vem de source, origem) e alt (que vem de alternative ou texto alternativo). -->
+    
+    <p>Podemos também carregar imagens que estão em outra pasta, contanto que ela esteja dentro da pasta atual.</p><br>
+    
+    <img src="Pasta teste/bravo-menor.jpg" alt="Imagen da pasta">
+
+        <!-- A linha 20 vai carregar a imagem bravo.jpg que está dentro da pasta fotos -->
+        <!-- como vimos anteriormente. Note que foi necessário colocar o nome da pasta seguido de uma barra "/" antes de 
+        colocar o nome do arquivo. Se isso não for obedecido, simplesmente a imagem não vai carregar! -->
+
+    <p>Também podemos carregar imagens externas, e para isso devemos ter a sua URL completa.</p><br>
+    <img src="https://gentecomgente.files.wordpress.com/2014/02/significado-pequenas-coisas.jpg" alt="Imagem da net">   
+</body>
+</html><!-- Na linha 26 fizemos a carga de um arquivo que não estava na pasta do 
+    projeto. A imagem significado-pequenas-coisas.jpg está localizada em outro domínio, o gentecomgente.wordpress.com. 
+    Nesse caso, precisamos indicar o caminho completo (URL) da imagem.  -->

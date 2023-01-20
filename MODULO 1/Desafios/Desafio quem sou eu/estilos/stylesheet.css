@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+body {
+    background-image:linear-gradient(to left, rgb(78, 78, 218), rgb(184, 164, 164));
+}
+
+h1 {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    text-indent: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+main {
+    margin: 13px 104px 1px 104px;
+    background-color: rgb(109, 109, 109);
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+}
+
+main p {
+    background-color:rgba(255, 255, 255, 0.404);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0px;
+    padding: 0px;
+}
+
+img.minhafoto {
+    display: block;
+    margin: auto;
+}
+
+img > a {
+    justify-items:center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.116);
+    text-decoration: underline;
+    border-radius: 30px;
+    animation-duration: 0.5s;
+    
+}
+

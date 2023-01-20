@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex018-02</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family:'fonte';
+            src: url('fonts/Sketching Universe.otf')
+            format('opentype');
+            /* Tipos de format()
+            - opentype (otf)
+            -truetype (ttf)
+            - truetype -aat (Apple Advanced Typography) 
+            -svg*/
+
+        }
+
+        h1{ 
+            font-family: 'fonte';
+            font-size: 40px;
+        
+        }
+        body{
+            
+        }
+
+        p{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Usando fontes externas baixadas</h1>
+    <ol>
+        <li>
+            <p>Baixe a fonte e jogue na pasta que deseja. </p>
+        </li>
+        <li>
+            <p>No vscode, dentro da tag &lt;style&gt; acrescente outra regra e clique na segunda opção.</p>
+        </li>
+
+    <p><code>@font-face {</code></p>
+            <p><code>font-family: ;</code></p>
+            <p><code>src:  url()</code></p></p>
+            <p><code>}</code></p>
+
+    <li>
+        <p>Depois de  <code><mark style="background-color:white;">font-family:</mark></code> deve ser criado um "apelido" para a fonte.</p>
+    </li>
+    
+<p align=center><code>font-family:<mark style="background-color: white;">'fonte'</mark>;</code></p><br>
+
+    <li>
+        <p>Dentro dos parenteses deve ser colocado o nome da fonte que foi baixada exatamente como ela está na pasta, no meu caso foi a "Sketching universe".</p><br>
+       </ol>
+        <p align="center"><code>src: url('fonts/<mark style="background-color:white;">Sketching Universe.otf</mark>')</code></p>
+        <br>
+        <p>Como ela está dentro de uma pasta, chamada "fonte" que está dentro de outra pasta, devemos colocar o "<strong>/</strong>"</p>  
+        <br>
+    
+<p>Quando for usar a fonte que foi baixada, em <mark style="background-color:white;">font-family</mark> deve ser colocado o "apelido" que foi craido, que nesse caso foi o "<mark style="background-color:white;">fonte</mark>"</p>
+<p><strong>Exemplo:</strong></p>
+<p><code>h1{ </p></code></p>
+<p><code>pfont-family: 'fonte';</code></p>
+<p><code>font-size: 3em;</code></p>
+<p><code>font-weight: normal;</code></p>
+}</code></p>
+       
+<h1 align="center">Tipos e formatos de fontes</h1>
+<ul>
+    <li><p>Opentype (normamente usado quando é formato otf)</p></li>
+    <li><p>Truetype (normalmente usado quando é formato ttf)</p></li>
+    <p><li>Embedded-opentype</li></p>
+    <li><p>Truetype -aat (Apple Advanced Typography)</p></li>
+    <li><p>Svg</p></li>
+</ul>
+<p>No nosso caso o formato que foi utilizado foi o <code><mark style="background-color: white;">opentype</mark></code></p>
+<br>
+    <a href="ex018.html" target="_self" rel="next"><img src="voltar.png" alt="Mudar de página"></a>
+
+   
+
+</body>    
+</html>

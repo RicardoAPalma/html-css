@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        table {
+            width: 400px;
+             border-collapse: collapse;         /* Separação entre as bordas*/
+
+        }
+
+        tr.linha {
+            background-color: grey;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        td.dado {
+            background-color: yellow;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1> 
+
+    <!-- HIERARQUIA DE TABELA (SIMPLES) -->
+    <!--TABLE = TABELA -->
+        <!-- TABLE ROW = LINHA DE TABLEA -->
+            <!-- TABLE HEADER = CABEÇALHO DE TABLEA -->
+                <!-- TABLEA DATA = DADOS DE TABELA -->
+
+                <!-- Obs: O fechamento de /td e /tr tem o fechamento opcional. -->
+
+    <table>
+        <tr>            <!--  Primeira linha -->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        
+         <tr class="linha"> <!-- Segunda linha -->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+         <tr> <!-- Terceira linha -->
+            <td>A3</td>  
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+
+        <tr>  <!-- Quarta linha -->
+            <td>A4</td>
+            <td class=dado>B4</td>
+            <td>C4</td>
+        </tr>
+    </table> <br>
+
+
+    <a href="ex023-02.html" target="_parent">Próxima página </a>
+    
+</body>
+</html>

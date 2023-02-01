@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+
+    <h1>Bloqueando Formularios</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem et nobis ad minima, tenetur quos dicta cumque culpa, aspernatur nam voluptatibus odit corporis eligendi illo quia voluptatum maiores sit?</p>
+
+    <iframe src="paginas-extras/pagina004.html" sandbox="sandbox" referrerpolicy="no-referer">
+        <!-- sandbox:  falando a grosso modo, é uma proteção contra ataques -->
+        <!-- o parametro referrerpolicy também ajuda na proteção -->
+        Seu navegador não é compatível com isso...
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde placeat veniam quis nostrum praesentium cum, vero vel porro, dolorem quo assumenda similique nisi velit reprehenderit est eius. Corrupti, inventore tempore.</p>
+
+    <h1>Sem bloqueio de formulario</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem et nobis ad minima, tenetur quos dicta cumque culpa, aspernatur nam voluptatibus odit corporis eligendi illo quia voluptatum maiores sit?</p>
+
+    <iframe src="paginas-extras/pagina004.html">
+        <!-- sandbox:  falando a grosso modo, é uma proteção contra ataques -->
+        Seu navegador não é compatível com isso...
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde placeat veniam quis nostrum praesentium cum, vero vel porro, dolorem quo assumenda similique nisi velit reprehenderit est eius. Corrupti, inventore tempore.</p>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+
+        body {
+            background-image:linear-gradient(to right, rgba(128, 128, 128, 0.411), rgb(50, 50, 255));
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+           
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro Formulário</h1>
+
+     <form action="cadastro.php" autocomplete="off"> <!--O action é um script para poder cadastrar os dados. -->  <!-- O comando autocomplete=off para de dar sugestões de escrita.-->
+        <p><label for="inome">Nome:</label>
+             <input type="text" name="nome" id="inome"></p> <!-- Input do tipo text cria a caixinha aonde o usuario digitara. -->
+        <p><label for="isobrenome">Sobrenome:</label>
+             <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p> <!-- Input do tipo subimit, cria o botão de enviar. -->
+        <!-- O label  serve para criar uma  relação entre as coisas. -->
+        <!-- o for de label tem que ser sempre igual ao Id, que é o mecanismo que ele usa para relacioanr um com o outro. -->
+        <!-- Visualmente não muda nada, mas um metodo para saber se deu certo esse relacionamento é, passar o mouse em cima da "etiqueta", que nesse caso são, nome e sobrenome e ao clicar, ele automaticamente tem que ir para dentro da caixa do formulario. -->
+    </form>
+</body>
+</html>

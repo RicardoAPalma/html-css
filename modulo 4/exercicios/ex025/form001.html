@@ -26,7 +26,12 @@
 <body>
     <h1>Meu primeiro Formulário</h1>
 
-     <form action="cadastro.php" autocomplete="off"> <!--O action é um script para poder cadastrar os dados. -->  <!-- O comando autocomplete=off para de dar sugestões de escrita.-->
+     <form action="cadastro.php" method="post" autocomplete="off"> <!-- Parametro method com o post: esconde os dados de maneira simples da url do site, usado para envio de dados senciveis, tomando cuidado, o ideial é vc trabalhar com a https, arquivos com mais de 3000bytes, ou para envio de arquivo. -->
+         
+          <!--  Outro atributo que se pode usar no parametro method é o get, usado quando voce quer que o a url seja compartilhavel. -->
+          <!-- Dados por get só podem ser enviados com o limite de  até 3000bytes, que equivale até 3000 letras, para senhas, dados senciveis e fotos ou qualquer tipo de arquivo, também não é recomendavel o uso de get.  -->
+         
+        <!--O action é um script para poder cadastrar os dados. -->  <!-- O comando autocomplete=off para de dar sugestões de escrita. -->
         <p><label for="inome">Nome:</label>
              <input type="text" name="nome" id="inome"></p> <!-- Input do tipo text cria a caixinha aonde o usuario digitara. -->
         <p><label for="isobrenome">Sobrenome:</label>

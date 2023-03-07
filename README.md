@@ -3,7 +3,7 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-Abaixo, alguns dos meus projetos!
+Abaixo, alguns dos meus projetos:
 <a href="https://ricardoapalma.github.io/projeto-android/index.html">Projeto-android</a>
 <a href="https://ricardoapalma.github.io/projeto-cordel/index.html">Projeto-cordel</a>
 <a href="https://ricardoapalma.github.io/projeto-social/index.html">Projeto-social</a>

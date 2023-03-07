@@ -9,8 +9,8 @@
     }
 
     body {
-        background-image: linear-gradient( to right, #FF6884, #948DFF 
-        ) ;
+        background-color: #3F3D56;
+
     }
     section#login {
         width: 80vw;
@@ -51,8 +51,7 @@
     }
     
     body {
-        background-image: linear-gradient( to right, #FF6884, #948DFF 
-        ) ;
+        background-color: #3F3D56;
     }
     
     section#login {

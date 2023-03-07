@@ -4,6 +4,10 @@
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    * {
+        font-family: cursive, sans-serif;
+    }
+
     body {
         background-image: linear-gradient( to right, #FF6884, #948DFF 
         ) ;
@@ -42,6 +46,10 @@
 /* Notbook para cima */
 @media screen and (min-width: 992px) {
 
+    *{
+        font-family: cursive, sans-serif;
+    }
+    
     body {
         background-image: linear-gradient( to right, #FF6884, #948DFF 
         ) ;
